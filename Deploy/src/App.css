@@ -1,0 +1,208 @@
+#root {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/*----- NavBar -----*/
+nav {
+  color: #a4a4a4;
+  padding: 10px;
+  font-weight: 400;
+  padding: 0 30px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  margin: 0 40px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+li:hover {
+  color: #9ce1ce;
+  transform: scale(1.1);
+}
+
+/*----- HomePage -----*/
+
+.homepage {
+  width: 700px;
+  height: 500px;
+  margin: 50px auto;
+  padding: 10px 0px;
+  position: relative; /*parent*/
+  /*border: solid 3px rgb(112, 235, 235); debug*/
+}
+
+.mint {
+  width: 360px;
+  position: absolute;
+  left: 70px;
+  top: 100px;
+  font-size: 50px;
+  color: #808080;
+}
+
+.myntcode {
+  position: absolute;
+  left: 70px;
+  top: 100px;
+  font-size: 100px;
+}
+
+.full-stack {
+  position: absolute;
+  top: 235px;
+  left: 74px;
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: #9ce1ce;
+}
+
+.Project {
+  font-weight: 600;
+  height: 60px;
+  width: 160px;
+  position: absolute;
+  top: 350px;
+  left: 74px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 6px 8px -2px rgb(0, 0, 0);
+  background-color: #363636;
+  color: aliceblue;
+}
+
+.Project:hover {
+  cursor: pointer;
+  background-color: #9ce1ce;
+  color: #363636;
+}
+
+/*----- AboutMe -----*/
+.about-section {
+  padding-top: 50px;
+}
+.profile-img {
+  width: 300px;
+  height: 300px;
+}
+
+.about-me-detail {
+  width: 600px;
+
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+/*----- Skills -----*/
+
+.skill-section {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+.logo-item img {
+  /* เพิ่มความกว้างและความสูงให้กับโลโก้ */
+  width: 50px;
+  height: 50px;
+  margin: 20px auto;
+  padding: 0 30px;
+}
+.logo-item img:hover {
+  transform: scale(1.1);
+}
+
+.img-and-details {
+  display: flex;
+  justify-content: center; /* จัดเนื้อหาให้อยู่ตรงกลางแนวนอน */
+  align-items: center; /* จัดเนื้อหาให้อยู่ตรงกลางแนวตั้ง */
+  padding: 0 100px;
+}
+
+.certificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google img {
+  width: 40px;
+  padding-top: 5px;
+}
+
+.google {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 0 50px;
+}
+
+.freecodecamp img {
+  width: 50px;
+  margin-top: 8px;
+}
+
+.freecodecamp {
+  width: 70px;
+  height: 50px;
+  background-color: #0a0a22;
+  margin: 20px 50px;
+  border-radius: 5px;
+}
+
+.google:hover {
+  transform: scale(1.1);
+}
+.freecodecamp:hover {
+  transform: scale(1.1);
+}
+
+/*----- Contact -----*/
+
+.box-contact {
+  background-color: #9ce1ce;
+  margin-top: 50px;
+  color: #000000;
+  padding: 20px 40px;
+  height: 180px;
+}
+
+.logo-contact img {
+  width: 40px;
+  padding: 20px;
+  margin: 0px;
+}
+
+.logo-contact {
+  width: 100%;
+}
+.logo-contact img:hover {
+  transform: scale(1.1);
+}
+
+/*----- Back to top button -----*/
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none; /* ซ่อนปุ่มเริ่มต้น */
+  padding: 10px 20px;
+  width: 50px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back-to-top-button:hover {
+  transform: scale(1.1);
+}
